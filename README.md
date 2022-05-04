@@ -13,6 +13,9 @@ Important steps to create project ,app,migrate it and run it in django
 ## Create Application
 	python manage.py startapp myapp
 
+## Migration if changes in model
+	python manage.py makemigrations
+	
 ## Migrate Database
 	python manage.py migrate
 
